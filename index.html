@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <h1>Relógio Digital</h1>
+</header>
+    <!-- Botão de alternância entre os modos Claro/Escuro -->
+    <div class="theme-toggle">
+        <label class="switch">
+            <input type="checkbox" id="theme-switch">
+            <span class="slider"></span>
+        </label>
+        <span id="theme-label">Modo Claro</span>
+    </div>
+
+    <!-- Contêiner principal para o relógio e outras informações -->
+    <div class="container">
+        <!-- Relógio que mostra horas, minutos, segundos e milissegundos -->
+        <div id="clock" class="clock"></div>
+        <!-- Calendário com dia, mês e ano -->
+        <div id="date" class="date"></div>
+        <!-- Avisos sobre o tempo restante até o final do ano -->
+        <div id="year-info" class="year-info"></div>
+    </div>
+
+    <!-- Script JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
